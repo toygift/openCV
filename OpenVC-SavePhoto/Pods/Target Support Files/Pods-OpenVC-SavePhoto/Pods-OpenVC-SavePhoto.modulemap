@@ -1,0 +1,6 @@
+framework module Pods_OpenVC_SavePhoto {
+  umbrella header "Pods-OpenVC-SavePhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

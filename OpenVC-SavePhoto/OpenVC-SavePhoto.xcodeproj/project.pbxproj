@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F91CB481FBA0B8700D12196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91CB471FBA0B8700D12196 /* AppDelegate.swift */; };
+		3F91CB4A1FBA0B8700D12196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91CB491FBA0B8700D12196 /* ViewController.swift */; };
+		3F91CB4D1FBA0B8700D12196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F91CB4B1FBA0B8700D12196 /* Main.storyboard */; };
+		3F91CB4F1FBA0B8700D12196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F91CB4E1FBA0B8700D12196 /* Assets.xcassets */; };
+		3F91CB521FBA0B8700D12196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F91CB501FBA0B8700D12196 /* LaunchScreen.storyboard */; };
+		3F91CB5A1FBA0D6600D12196 /* AVCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91CB591FBA0D6600D12196 /* AVCapture.swift */; };
+		3F91CB5E1FBA150E00D12196 /* OpenCv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F91CB5D1FBA150E00D12196 /* OpenCv.mm */; };
+		3F91CB611FBA1B6300D12196 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F91CB621FBA1B6300D12196 /* opencv2.framework */; };
+		3F91CB661FBA1F0900D12196 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F91CB651FBA1F0900D12196 /* opencv2.framework */; };
+		7CFA2F24463E9253AED6B4AF /* Pods_OpenVC_SavePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF7237BA3E0C88BAEB6FD5C /* Pods_OpenVC_SavePhoto.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BF7237BA3E0C88BAEB6FD5C /* Pods_OpenVC_SavePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenVC_SavePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F91CB441FBA0B8700D12196 /* OpenVC-SavePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenVC-SavePhoto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F91CB471FBA0B8700D12196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F91CB491FBA0B8700D12196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F91CB4C1FBA0B8700D12196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F91CB4E1FBA0B8700D12196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F91CB511FBA0B8700D12196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F91CB531FBA0B8700D12196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F91CB591FBA0D6600D12196 /* AVCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCapture.swift; sourceTree = "<group>"; };
+		3F91CB5B1FBA150D00D12196 /* OpenVC-SavePhoto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenVC-SavePhoto-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F91CB5C1FBA150D00D12196 /* OpenCv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCv.h; sourceTree = "<group>"; };
+		3F91CB5D1FBA150E00D12196 /* OpenCv.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCv.mm; sourceTree = "<group>"; };
+		3F91CB621FBA1B6300D12196 /* opencv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = opencv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F91CB651FBA1F0900D12196 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		7BDDA4692A46B59BD3915B44 /* Pods-OpenVC-SavePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenVC-SavePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenVC-SavePhoto/Pods-OpenVC-SavePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F4EA379257071A117C8650 /* Pods-OpenVC-SavePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenVC-SavePhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenVC-SavePhoto/Pods-OpenVC-SavePhoto.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F91CB411FBA0B8700D12196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F91CB661FBA1F0900D12196 /* opencv2.framework in Frameworks */,
+				3F91CB611FBA1B6300D12196 /* opencv2.framework in Frameworks */,
+				7CFA2F24463E9253AED6B4AF /* Pods_OpenVC_SavePhoto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F91CB3B1FBA0B8700D12196 = {
+			isa = PBXGroup;
+			children = (
+				3F91CB461FBA0B8700D12196 /* OpenVC-SavePhoto */,
+				3F91CB451FBA0B8700D12196 /* Products */,
+				86EEB3DA43AFB1E0B1DE3DC1 /* Pods */,
+				BE8E42AE568D29D13FA7CE2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F91CB451FBA0B8700D12196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F91CB441FBA0B8700D12196 /* OpenVC-SavePhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F91CB461FBA0B8700D12196 /* OpenVC-SavePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				3F91CB471FBA0B8700D12196 /* AppDelegate.swift */,
+				3F91CB491FBA0B8700D12196 /* ViewController.swift */,
+				3F91CB5C1FBA150D00D12196 /* OpenCv.h */,
+				3F91CB5D1FBA150E00D12196 /* OpenCv.mm */,
+				3F91CB591FBA0D6600D12196 /* AVCapture.swift */,
+				3F91CB4B1FBA0B8700D12196 /* Main.storyboard */,
+				3F91CB4E1FBA0B8700D12196 /* Assets.xcassets */,
+				3F91CB651FBA1F0900D12196 /* opencv2.framework */,
+				3F91CB501FBA0B8700D12196 /* LaunchScreen.storyboard */,
+				3F91CB531FBA0B8700D12196 /* Info.plist */,
+				3F91CB5B1FBA150D00D12196 /* OpenVC-SavePhoto-Bridging-Header.h */,
+			);
+			path = "OpenVC-SavePhoto";
+			sourceTree = "<group>";
+		};
+		86EEB3DA43AFB1E0B1DE3DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BDDA4692A46B59BD3915B44 /* Pods-OpenVC-SavePhoto.debug.xcconfig */,
+				E7F4EA379257071A117C8650 /* Pods-OpenVC-SavePhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE8E42AE568D29D13FA7CE2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F91CB621FBA1B6300D12196 /* opencv2.framework */,
+				3BF7237BA3E0C88BAEB6FD5C /* Pods_OpenVC_SavePhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F91CB431FBA0B8700D12196 /* OpenVC-SavePhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F91CB561FBA0B8700D12196 /* Build configuration list for PBXNativeTarget "OpenVC-SavePhoto" */;
+			buildPhases = (
+				3080561DA46D49079BBE891D /* [CP] Check Pods Manifest.lock */,
+				3F91CB401FBA0B8700D12196 /* Sources */,
+				3F91CB411FBA0B8700D12196 /* Frameworks */,
+				3F91CB421FBA0B8700D12196 /* Resources */,
+				E5615129E985FF33EAC094E0 /* [CP] Embed Pods Frameworks */,
+				778F4AD9294467C2B635E471 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenVC-SavePhoto";
+			productName = "OpenVC-SavePhoto";
+			productReference = 3F91CB441FBA0B8700D12196 /* OpenVC-SavePhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F91CB3C1FBA0B8700D12196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jaeseong;
+				TargetAttributes = {
+					3F91CB431FBA0B8700D12196 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F91CB3F1FBA0B8700D12196 /* Build configuration list for PBXProject "OpenVC-SavePhoto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F91CB3B1FBA0B8700D12196;
+			productRefGroup = 3F91CB451FBA0B8700D12196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F91CB431FBA0B8700D12196 /* OpenVC-SavePhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F91CB421FBA0B8700D12196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F91CB521FBA0B8700D12196 /* LaunchScreen.storyboard in Resources */,
+				3F91CB4F1FBA0B8700D12196 /* Assets.xcassets in Resources */,
+				3F91CB4D1FBA0B8700D12196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3080561DA46D49079BBE891D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenVC-SavePhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778F4AD9294467C2B635E471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenVC-SavePhoto/Pods-OpenVC-SavePhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5615129E985FF33EAC094E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OpenVC-SavePhoto/Pods-OpenVC-SavePhoto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OpenCV/opencv2.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opencv2.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenVC-SavePhoto/Pods-OpenVC-SavePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F91CB401FBA0B8700D12196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F91CB4A1FBA0B8700D12196 /* ViewController.swift in Sources */,
+				3F91CB5A1FBA0D6600D12196 /* AVCapture.swift in Sources */,
+				3F91CB5E1FBA150E00D12196 /* OpenCv.mm in Sources */,
+				3F91CB481FBA0B8700D12196 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F91CB4B1FBA0B8700D12196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F91CB4C1FBA0B8700D12196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F91CB501FBA0B8700D12196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F91CB511FBA0B8700D12196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F91CB541FBA0B8700D12196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F91CB551FBA0B8700D12196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F91CB571FBA0B8700D12196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDDA4692A46B59BD3915B44 /* Pods-OpenVC-SavePhoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNEH2787UY;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/OpenVC-SavePhoto";
+				INFOPLIST_FILE = "OpenVC-SavePhoto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toygift1.OpenVC-SavePhoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenVC-SavePhoto/OpenVC-SavePhoto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F91CB581FBA0B8700D12196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F4EA379257071A117C8650 /* Pods-OpenVC-SavePhoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNEH2787UY;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/OpenVC-SavePhoto";
+				INFOPLIST_FILE = "OpenVC-SavePhoto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toygift1.OpenVC-SavePhoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenVC-SavePhoto/OpenVC-SavePhoto-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F91CB3F1FBA0B8700D12196 /* Build configuration list for PBXProject "OpenVC-SavePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F91CB541FBA0B8700D12196 /* Debug */,
+				3F91CB551FBA0B8700D12196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F91CB561FBA0B8700D12196 /* Build configuration list for PBXNativeTarget "OpenVC-SavePhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F91CB571FBA0B8700D12196 /* Debug */,
+				3F91CB581FBA0B8700D12196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F91CB3C1FBA0B8700D12196 /* Project object */;
+}
